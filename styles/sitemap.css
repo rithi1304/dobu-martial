@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #212529;
+    
+}
+
+/* Sitemap Styles */
+.sitemap {
+    max-width: 800px;
+    margin: 0 auto;
+    float: left;
+    padding-left: 100px;
+}
+
+.sit-head {
+    margin-top: 40px;
+    color: white;
+    font-size: 45px;
+}
+.dobu {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.services {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.our-gym {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.other {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sitemap ul {
+    padding-top: 10px;
+    list-style: none;
+    
+}
+
+.sitemap li {
+    margin-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+}
+
+.sitemap a {
+    text-decoration: none;
+    color: #4361ee;
+}
+
+.sitemap a:hover {
+    text-decoration: underline;
+}
+
+.sitemap ul ul {
+    padding-left: 20px;
+}
+.footer {
+    padding-top: 50%;
+}

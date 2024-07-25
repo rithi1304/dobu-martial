@@ -1,0 +1,71 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    background-color: #212529;
+}
+
+/* Container Styles */
+.privacy-container {
+    float: left;
+    padding-left: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 60px;
+    /* background-color: #fff; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.privacy-container h1 {
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.privacy-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #9EB3C2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+.privacy-container p {
+    color: white;
+    line-height: 1.6;
+}
+
+/* List Styles */
+.privacy-container ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Link Styles */
+.privacy-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.footer {
+    padding-top: 113%;
+}
+
+

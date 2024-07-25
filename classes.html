@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classes</title>
+    <link rel="stylesheet" href="/styles/dobu.css">
+    <link rel="stylesheet" href="/styles/classes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("header").load("header.html");
+            $("footer").load("footer.html");
+        })
+    </script>
+</head>
+
+<body>
+    <header></header>
+
+    <h1 class="class-intro"> Our Classes</h1>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openMA(event, 'jiujitsu')">Jiu-jitsu</button>
+        <button class="tablinks" onclick="openMA(event, 'judo')">Judo</button>
+        <button class="tablinks" onclick="openMA(event, 'muay')">Muay Thai</button>
+        <button class="tablinks" onclick="openMA(event, 'karate')">Karate</button>
+        <button class="tablinks" onclick="openMA(event, 'self-defence')">Self-Defence</button>
+        <button class="tablinks" onclick="openMA(event, 'fitness')">Fitness</button>
+    </div>
+
+    <div id="jiujitsu" class="tabcontent">
+        <div class="jiu-jitsu">
+            <div class="bjj-container">
+                <div class="jj-img">
+                    <h1>
+                        Jiu-Jitsu
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="jj-head">
+            What is Brazilian Jiu-Jitsu?
+        </h1>
+        <p class="jj-para">
+            Brazilian Jiu-Jitsu, commonly known as BJJ, is a martial art and combat sport that originated in
+            Brazil.
+            It focuses on ground fighting and submission techniques, making it an essential discipline for
+            self-defense, competition, and overall fitness. Unlike many traditional martial arts, BJJ empowers
+            practitioners to overcome larger and stronger opponents using leverage, technique, and timing.
+
+            <span style="color: bisque;">Jiu-Jitsu Program:</span>
+
+            At our martial arts gym, we take pride in providing top-notch BJJ instruction for all ages and skill levels.
+            Whether you're a beginner eager to learn the fundamentals or an experienced practitioner looking to refine
+            your techniques, our experienced and passionate instructors will guide you every step of the way.
+
+            Our classes are structured to cater to everyone, from absolute beginners to advanced practitioners. You'll
+            enjoy a safe and friendly training environment that fosters growth, respect, and camaraderie among our
+            members.
+        </p>
+    </div>
+
+    <div id="judo" class="tabcontent">
+        <div class="judo-container">
+            <div class="judo-img">
+                <h1>
+                    Judo
+                </h1>
+            </div>
+        </div>
+
+        <h1 class="judo-head">
+            What is Judo?
+        </h1>
+        <p class="judo-para">
+            Judo, meaning "gentle way" in Japanese, is a modern martial art and Olympic sport that originated in Japan.
+            Founded by Jigoro Kano in the late 19th century, Judo emphasizes using an opponent's strength and momentum
+            against them rather than relying solely on brute force. It is based on the principles of maximum efficiency
+            and mutual welfare, making it suitable for practitioners of all ages and abilities.
+            <span style="color: bisque;"> Judo Program:</span>
+
+            At our martial arts gym, we are committed to providing top-quality Judo instruction led by experienced and
+            passionate black belt instructors. Our Judo classes are designed to cater to students of all ages and skill
+            levels, from beginners taking their first steps on the tatami (Judo training mat) to seasoned practitioners
+            looking to refine their techniques.
+
+            In our classes, you will learn essential Judo throws, pins, joint locks, and submission techniques while
+            focusing on proper falling and safe practice. Our goal is to create a safe and supportive training
+            environment where every student can thrive and reach their full potential.
+        </p>
+    </div>
+
+    <div id="muay" class="tabcontent">
+        <div class="muay-container">
+            <div class="muay-img">
+                <h1>
+                    Muay Thai
+                </h1>
+            </div>
+        </div>
+
+        <h1 class="muay-head">
+            What is Muay Thai?
+        </h1>
+        <p class="muay-para">
+            Muay Thai, also known as "The Art of Eight Limbs," originated in Thailand and has a history dating back
+            centuries. It is a combat sport and martial art that utilizes a combination of fists, elbows, knees, and
+            shins to strike opponents. Muay Thai is renowned for its effectiveness, making it a staple for professional
+            fighters, self-defense practitioners, and fitness enthusiasts alike.
+            <span style="color: bisque;"> Our Muay Thai Program:</span>
+
+            At our martial arts gym, we offer comprehensive Muay Thai classes suitable for all levels, from beginners to
+            experienced practitioners. Our dedicated team of instructors, who are seasoned Muay Thai fighters
+            themselves, will guide you through proper techniques, combinations, and strategies to help you progress and
+            achieve your goals.
+
+            Our training environment is friendly, supportive, and inclusive. Whether you're seeking to compete, learn
+            self-defense, or simply enjoy an intense workout, our Muay Thai program will cater to your needs and
+            aspirations.
+        </p>
+    </div>
+
+    <div id="karate" class="tabcontent">
+        <div class="karate-container">
+            <div class="karate-img">
+                <h1>
+                    Karate
+                </h1>
+            </div>
+        </div>
+
+        <h1 class="karate-head">
+            What is Karate?
+        </h1>
+        <p class="karate-para">
+            Karate originated in Okinawa, Japan, and has evolved into a diverse and respected martial art practiced
+            worldwide. It is a striking-based martial art that incorporates various punches, kicks, knee strikes, and
+            elbow strikes, along with precise techniques for blocking and evading attacks. Karate emphasizes the
+            development of strong character, inner peace, and respect for oneself and others.
+            <span style="color: bisque;"> Our Karate Program:</span>
+
+            At our martial arts gym, we offer a comprehensive Karate program suitable for students of all ages and skill
+            levels. Whether you're a beginner taking your first steps in martial arts or an experienced martial artist
+            looking to refine your techniques, our team of dedicated and experienced instructors will guide you on your
+            journey.
+            Our Karate classes focus on fundamental techniques, forms (katas), sparring, and self-defense applications.
+            Each class is designed to challenge and inspire you while providing a safe and supportive learning
+            environment.
+            aspirations.
+        </p>
+    </div>
+
+    <div id="self-defence" class="tabcontent">
+        <div class="self-container">
+            <div class="self-img">
+                <h1>
+                    Self-Defence
+                </h1>
+            </div>
+        </div>
+
+        <h1 class="self-head">
+            Why Self-Defence Training?
+        </h1>
+        <p class="self-para">
+            In today's world, knowing how to defend yourself is a valuable asset. Our self-defense training goes beyond
+            physical techniques; it encompasses mental preparedness and situational awareness, empowering you to
+            recognize and respond to potential dangers effectively
+            <span style="color: bisque;"> Our Self-Defense Program:</span>
+
+            At our martial arts gym, our self-defense program is designed by experienced instructors who understand the
+            importance of practicality, safety, and adaptability.
+        </p>
+    </div>
+
+    <div id="fitness" class="tabcontent">
+        <div class="fit-container">
+            <div class="fit-img">
+                <h1>
+                    Fitness Training
+                </h1>
+            </div>
+        </div>
+
+        <h1 class="fit-head">
+            Why Fitness Training?
+        </h1>
+        <p class="fit-para">
+            At our martial arts gym, we firmly believe that fitness training plays a vital role in maximizing your
+            potential as a martial artist. Our fitness program offers a plethora of benefits, including :
+            Improved Performance, Injury Prevention, Weight Management, Stress Relief, Community and Support.
+            <span style="color: bisque;"> Our Fitness Training Program:</span>
+
+            Our martial arts gym offers a wide range of fitness classes to suit various interests and fitness levels.
+            From cardio-focused workouts to strength training, flexibility exercises, and core conditioning, we provide
+            a holistic approach to fitness. Each class is led by certified fitness instructors who are passionate about
+            helping you achieve your health and fitness goals.
+        </p>
+    </div>
+
+    <script>
+        function openMA(evt, maName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(maName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <div class="wrapper-container">
+        <div class="class-wrapper">
+            <input type="radio" name="slider" id="tab-1">
+            <input type="radio" name="slider" id="tab-2" checked>
+            <input type="radio" name="slider" id="tab-3">
+            <div class="header">
+                <label for="tab-1" class="tab-1">Basic</label>
+                <label for="tab-2" class="tab-2">Intermediate</label>
+                <label for="tab-3" class="tab-2">Advanced</label>
+                <div class="slider"></div>
+            </div>
+
+            <div class="cards-area">
+                <div class="cards">
+                    <div class="rows row-1">
+                        <div class="pricing-details">
+                            <span>25</span>
+                        </div>
+                        <ul class="ft">
+                            <li><i class="fas fa-check"></i><span>ONE martial art</span></li>
+                            <li><i class="fas fa-check"></i><span>TWO sessions per week</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="rows">
+                        <div class="pricing-details">
+                            <span>35</span>
+                        </div>
+                        <ul class="ft">
+                            <li><i class="fas fa-check"></i><span>ONE martial art</span></li>
+                            <li><i class="fas fa-check"></i><span>THREE sessions per week</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="rows">
+                        <div class="pricing-details">
+                            <span>45</span>
+                        </div>
+                        <ul class="ft">
+                            <li><i class="fas fa-check"></i><span>any TWO martial arts</span></li>
+                            <li><i class="fas fa-check"></i><span>FIVE sessions per week</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <button>Choose Plan</button>
+        </div>
+
+        <div class="class-wrapper3">
+            <input type="radio" name="slider" id="tab-7">
+            <input type="radio" name="slider" id="tab-8">
+            <input type="radio" name="slider" id="tab-9">
+            <div class="header3">
+                <label for="tab-7" class="tab-7">Self-Defence</label>
+                <label for="tab-8" class="tab-8">Fitness room</label>
+                <label for="tab-9" class="tab-9">Fitness</label>
+                <div class="slider3"></div>
+            </div>
+
+            <div class="cards-area3">
+                <div class="cards3">
+                    <div class="rows3 row-3">
+                        <div class="pricing-details3">
+                            <span class="week">180</span>
+                        </div>
+                        <ul class="ft3">
+                            <li><i class="fas fa-check"></i><span>For beginners</span></li>
+                            <li><i class="fas fa-check"></i><span>Six weeks course</span></li>
+                            <li><i class="fas fa-check"></i><span>1-hour sessions</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="rows3">
+                        <div class="pricing-details3">
+                            <span class="visit">6</span>
+                        </div>
+                        <ul class="ft3">
+                            <li><i class="fas fa-check"></i><span>Can use fitness room</span></li>
+                            <li><i class="fas fa-check"></i><span>$6.00 per VISIT</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="rows3">
+                        <div class="pricing-details3">
+                            <span class="hour">35</span>
+                        </div>
+                        <ul class="ft3">
+                            <li><i class="fas fa-check"></i><span>PERSONAL fitness training</span></li>
+                            <li><i class="fas fa-check"></i><span>$35.00 per hour</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <button>Choose Plan</button>
+        </div>
+
+        <div class="class-wrapper2">
+            <input type="radio" name="slider" id="tab-4">
+            <input type="radio" name="slider" id="tab-5">
+            <input type="radio" name="slider" id="tab-6">
+            <div class="header2">
+                <label for="tab-4" class="tab-4">Elite</label>
+                <label for="tab-5" class="tab-4">Private</label>
+                <label for="tab-6" class="tab-6">Juniors</label>
+                <div class="slider2"></div>
+            </div>
+
+            <div class="cards-area2">
+                <div class="cards2">
+                    <div class="rows2 row-2">
+                        <div class="pricing-details2">
+                            <span>60</span>
+                        </div>
+                        <ul class="ft2">
+                            <li><i class="fas fa-check"></i><span>UNLIMITED classes</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="rows2">
+                        <div class="pricing-details2">
+                            <span class="priv">15</span>
+                        </div>
+                        <ul class="ft2">
+                            <li><i class="fas fa-check"></i><span>Private martial arts tuition</span></li>
+                            <li><i class="fas fa-check"></i><span>$15.00 per HOUR</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="rows2">
+                        <div class="pricing-details2">
+                            <span>25</span>
+                        </div>
+                        <ul class="ft2">
+                            <li><i class="fas fa-check"></i><span>ANY martial arts</span></li>
+                            <li><i class="fas fa-check"></i><span>ALL-KIDS sessions</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <button>Choose Plan</button>
+        </div>
+
+
+
+    </div>
+
+
+
+    <footer></footer>
+</body>
+
+</html>

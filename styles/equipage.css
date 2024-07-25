@@ -1,0 +1,146 @@
+.equip {
+    position: relative;
+    width: 100vw;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.equip-img {
+    background-image: url("/images/george-pagan-iii-9GdMuamOGlc-unsplash.webp");
+    min-height: 390px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.equip-img::before {
+    /* The pseudo-element to create an overlay with opacity */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    /* Adjust the opacity value as needed */
+}
+
+.equip h1 {
+    color: #212529;
+    font-size: 36px;
+    padding-top: 210px;
+    /* Adjust the padding to vertically center the text */
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.polaroid {
+    padding-left: 100px;
+    position: absolute;
+    margin-bottom: 40%;
+}
+.mat {
+    float: left;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.mat-container {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.polaroid2 {
+    padding-top: 680px;
+    padding-right: 100px;
+    position: absolute;
+}
+.equip-gym {
+    float: right;
+    width: 55%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.egym-container {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.polaroid3 {
+    padding-top: 1375px;
+    padding-left: 100px;
+    position: absolute;
+    margin-bottom: 40%;
+}
+.sauna {
+    float: left;
+    width: 61%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.sauna-container {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.polaroid4 {
+    padding-top: 2050px;
+    padding-right: 100px;
+    position: absolute;
+}
+.steam {
+    float: right;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.steam-container {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.polaroid5 {
+    padding-top: 2711px;
+    padding-left: 100px;
+    position: absolute;
+    margin-bottom: 40%;
+}
+.shower {
+    float: left;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.shower-container {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.polaroid6 {
+    padding-top: 3500px;
+    padding-right: 100px;
+    position: absolute;
+}
+.change {
+    float: right;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.change-container {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer {
+    padding-top: 296%;
+}
